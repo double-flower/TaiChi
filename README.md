@@ -2,10 +2,15 @@
 
 
  ## Usage
- 1. compile: 
+ 1. prepare environment:
+    please modify following variables in Makefile according specific environment
+    > ARCH, CUDA_INSTALL_PATH, OPENCV_INCLUDES, CUSP_PATH
+    
+    CUSP library can be downloaded from http://cusplibrary.github.io/
+ 2. compile: 
     > make
     
- 2. run: 
+ 3. run: 
    
     > ./spmv matrixPath
    
